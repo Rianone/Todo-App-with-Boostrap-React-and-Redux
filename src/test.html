@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div className="tasklist">
+        <h2>Sort By: </h2>
+        <br/>
+        <ul>
+            <li>
+                <p className="lead">New: </p>
+                <label className="switch">
+                    <input type="checkbox">
+                    <div className="slider"></div>
+                </label>
+            </li>
+            <li>
+                <p className="lead">Pending: </p>
+                <label className="switch">
+                    <input type="checkbox">
+                    <div className="slider"></div>
+                </label>
+            </li>
+            <li>
+                <p className="lead">Finished: </p>
+                <label className="switch">
+                    <input type="checkbox">
+                    <div className="slider"></div>
+                </label>
+            </li>
+        </ul>
+
+        <h2 className="text-center">Tasklist</h2>
+        <div className="taskbox">
+            <ul id="myUL">
+                <li>Hit the gym 
+                    <span className="task-btns">
+                        <span className="close"><i className="fa fa-trash" aria-hidden="true"></i> d</span>
+                        <span className="close" id="edit"><i className="fa fa-trash" aria-hidden="true"></i> e</span>
+                    </span>
+                </li>
+                <li className="finished">Pay bills</li>
+                <li className="pending">Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
